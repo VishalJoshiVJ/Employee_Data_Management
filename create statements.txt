@@ -1,0 +1,33 @@
+========================================
+COMPANY TABLE :
+
+CREATE TABLE COMPANY(
+NAME VARCHAR(50),
+WEBSITE VARCHAR(20),
+PHONE VARCHAR(11),
+ADDRESS VARCHAR(20),
+CITY VARCHAR(20),
+STATE VARCHAR(20),
+COUNTRY VARCHAR(20),
+INDUSTRY VARCHAR(20),
+EMAIL VARCHAR(20)
+);
+
+==========================================
+
+COMPANY_LOGIN TABLE:
+
+CREATE TABLE COMPANY_LOGIN(
+EMAIL VARCHAR(20),
+PASSWORD VARCHAR(15),
+PRIMARY KEY(EMAIL)
+);
+
+==========================================
+
+COMPANY_LOGGEDIN TABLE:
+
+CREATE TABLE COMPANY_LOGGEDIN(
+EMAIL VARCHAR(20)
+);
+==========================================
